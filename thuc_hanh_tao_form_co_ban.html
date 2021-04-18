@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Form cơ bản</title>
+    <style>
+        .wufoo {
+        font-family: "Lucida Grande","Lucida Sans Unicode", Tahoma, sans-serif;
+        }
+    </style>
+</head>
+<body>
+    <form method="GET" action="thuc_hanh_tao_form_co_ban.html" class="wufoo">
+        <h2 style="font-family: arial;">Lựa Chọn mua hàng</h2>
+        <p>Chọn gian hàng bạn muốn:</p>
+        <select>
+            <option value=" ">A</option>
+            <option>B(+0.5 $)</option>
+            <option>C(+0.5 $)</option>
+        </select>
+        <p>bạn muốn mua bao nhiêu?</p>
+        <input type="radio" name="choise"/> 1 - $10 <br>
+        <input type="radio" name="choise"/> 2 - $20 <br>
+        <input type="radio" name="choise"/> 3 - $25 <br>
+        <p>Họ tên bạn:</p>
+        <input type="text" name="firstName" placeholder="FirstName"/>
+        <input type="text" name="lastName" placeholder="LastName"/> <br>
+        <p>Email của bạn:</p>
+        <input type="email" placeholder="Example@gmai.com"/> <br>
+        <p>Số điện thoại của bạn:</p>
+        <input type="number" /> <br>
+        <input type="submit" value="Gửi Ngay!"/>
+    </form>
+
+</body>
+</html>

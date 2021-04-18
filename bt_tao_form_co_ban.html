@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bt bạo form cơ bản</title>
+</head>
+<body>
+    <h2>phần 1</h2>
+    <form style="width: 30%;">
+        <h3 style="background-color: rgb(255, 72, 0);color:white;text-align: center;">SỞ THÍCH CỦA BẠN</h3>
+        <p>Họ và tên:</p>
+        <input type="textBox" name="yourname" placeholder="Nguyễn Văn A">
+        <p>Email:</p>
+        <input type="email" name="email" placeholder="Example@gmail.com">
+        <p>Sở thích:</p>
+        <input type="checkbox" name="hobby" value="thể thao" style="color:rgb(255, 106, 6)"> thể thao
+        <input type="checkbox" name="hobby" value="Âm nhạc" style="color:rgb(255, 106, 6)"> Âm Nhạc
+        <input type="checkbox" name="hobby" value="Đọc sách" style="color:rgb(255, 106, 6)">Đọc sách <br>
+        <input type="checkbox" name="hobby" value="Lướt Web" style="color:rgb(255, 106, 6)">Lướt Web
+        <input type="checkbox" name="hobby" value="chơi game" style="color:rgb(255, 106, 6)"> Chơi game 
+        <input type="checkbox" name="hobby" value="Điện ảnh" style="color:rgb(255, 106, 6)"> Điện ảnh <br>
+        <input type="checkbox" name="hobby" value="Du lịch" style="color:rgb(255, 106, 6)">Du lich <br><br>
+        <input type="submit" value="Gửi Thông tin" style="background-color:#dddddd;">
+        <input type="reset" valua="nhập lại"
+        style="background-color:#dddddd;">
+
+    </form>
+    <h2>phần 2</h2>
+    <form style="background-color:#ffe291;width: 50%;">
+         <h3 style="background-color:#6cfdde;color:rgb(0, 60, 255)">ĐĂNG KÝ HỌC VIÊN</h3>
+         <div style="color:blue;">
+         <p>
+             Họ và Tên:
+             <input type="textBox" name="hoten" placeholder="Nguyễn Văn A">
+         </p>
+         <p>
+             Ngày Sinh:
+             <input type="textBox" name="ngaysinh" placeholder="23/11/2000"> 
+         </p>
+         
+        <p>
+            Giới tính:
+            <input type="radio" name="sex" value="nam" > Nam
+            <input type="radio" name="sex" valua="nữ"> Nữ
+        </p>
+       
+         <p>
+            Địa chỉ:
+            <input type="textarea" name="diachi"size="100" placeholder="Số nhà - Xã - Huyện - Tỉnh">
+         </p>
+         <p>
+             Lớp:
+             <select name="lop">
+                 <option value="chua chon">--Chọn lớp--</option>
+                 <option value="css">CSS</option>
+                 <option value="Js">JS</option>
+                 <option value="java">Java</option>
+                 <option value="Html">HTML</option>
+                 <option value="c/c++">C/C++</option>
+             </select>
+         </p>
+         <p>
+             Email:
+             <input type="email" name="email" placeholder="Example@gmail.com">
+         </p>
+         <p>
+             Điện thoại:
+             <input type="number" name="phoneNumber" placeholder="+84">
+         </p>
+        </div>
+         <p>
+             <input type="submit" value="Đăng ký" style="background-color:rgb(201, 199, 197)">
+             <input type="reset" value="Nhập lại" style="background-color:rgb(201, 199, 197)">
+         </p>
+            
+        </table>
+    </form>
+</body>
+</html>
